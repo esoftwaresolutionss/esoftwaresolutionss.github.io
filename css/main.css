@@ -1,0 +1,59 @@
+.main {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content-section {
+    padding: 2em;
+  }
+  
+  .content-section h2 {
+    text-align: center;
+    margin: 1em 0;
+  }
+  
+  .small {
+    font-size: 0.8em;
+  }
+  
+  .main .home {
+    color: white;
+    background-image: url("../imgs/header-img.jpeg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    /* margin: -2em;
+    padding: 2em; */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main .services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .main .contact {
+    background-color: #222;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+  }
+  
+  .card-body {
+    font-size: 0.8em;
+  }
+  
+  .home-title-wrapper {
+    margin-bottom: 1em;
+  }
+  
